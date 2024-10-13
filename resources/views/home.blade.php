@@ -1,0 +1,9 @@
+@extends('Components.Master')
+@section('content')
+@include('landing.sections.hero')
+@include('landing.sections.site')
+@include('landing.sections.aboutUs')
+@include('landing.sections.products')
+@include('landing.sections.login')
+@include('landing.sections.register')
+@endsection
